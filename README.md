@@ -36,20 +36,21 @@ When the application starts, it automatically generates and displays the QR code
 
 ## 📂 Project Structure
 
+```bash
 qr-generator/
 │
 ├── src/
-│ ├── main.py # GUI and main application logic
-│ ├── qr_generator.py # QR code generation logic
-│ └── validators.py # URL validation
+│   ├── main.py          # GUI and main application logic
+│   ├── qr_generator.py # QR code generation logic
+│   └── validators.py   # URL validation
 │
 ├── output/
-│ └── qr_code.png # Generated QR image
+│   └── qr_code.png     # Generated QR image
 │
-├── venv/ # Virtual environment
+├── venv/               # Virtual environment
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## ⚙️ Installation & Execution
